@@ -1,11 +1,12 @@
-footer .container {
+body {
+    padding-top: 80px;
+}
+
+.footer-container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
     justify-content: space-between;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding: 75px 0;
 }
 
 footer .text {
@@ -35,16 +36,22 @@ footer .text a:hover {
     background-color: #030f55;
 }
 
-.nav-link {
+#navbar .nav-link {
+    color: white !important;
     font-size: 18px;
     font-weight: bold;
-    color: rgb(255, 255, 255);
 }
 
-.navbar.scrolled {
-    background: #F2E8C6;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+#navbar.scrolled {
+    background-color: #F2E8C6;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
 }
 
 @media screen and (max-width: 768px) {
