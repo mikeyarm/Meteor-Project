@@ -1,5 +1,6 @@
 body {
     padding-top: 80px;
+    background-image: url(img/space.jpg);
 }
 
 .footer-container {
@@ -17,12 +18,12 @@ footer .text {
 
 footer .text p.company,
 footer .text p.copyright {
-    color: rgb(107, 107, 107);
+    color: rgb(197, 197, 197);
     text-align: center;
 }
 
 footer .text a {
-    color: rgb(107, 107, 107);
+    color: rgb(197, 197, 197);
     text-decoration: none;
 }
 
@@ -33,7 +34,7 @@ footer .text a:hover {
 
 #navbar {
     transition: 0.3s ease;
-    background-color: #030f55;
+    background-color: #01051d;
 }
 
 #navbar .nav-link {
@@ -126,4 +127,8 @@ footer .text a:hover {
     margin-top: 15px;
     margin-left: -200px;
     font-size: 40px;
+}
+
+h1 {
+    color: white;
 }
