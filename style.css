@@ -38,13 +38,14 @@ footer .text a:hover {
 }
 
 #navbar .nav-link {
-    color: white !important;
+    color: white;
     font-size: 18px;
     font-weight: bold;
 }
 
 #navbar.scrolled {
-    background-color: #F2E8C6;
+    background-color: #000000;
+    opacity: 25%;
 }
 
 .navbar-toggler {
@@ -53,6 +54,10 @@ footer .text a:hover {
 
 .navbar-toggler-icon {
     filter: invert(1);
+}
+
+#navbar .nav-link:hover {
+    color: #33184d;
 }
 
 @media screen and (max-width: 768px) {
@@ -131,4 +136,10 @@ footer .text a:hover {
 
 h1 {
     color: white;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    margin: 0 50px;
 }
